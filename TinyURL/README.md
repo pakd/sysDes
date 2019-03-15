@@ -22,9 +22,9 @@
 	* string short2long(string short)
 * Md5
 	* calculate hash of long url and return 7 chars(any 7 chars from total of 32 chars or 128 bits)
-* Base62,Random
+* Base62 , Random
 	* [Base62 Conversion](https://www.geeksforgeeks.org/how-to-design-a-tiny-url-or-url-shortener/)
-	* 62^7 = 3.5 Trillion combinations
+	* 7 chars only , 62^7 = 3.5 Trillion combinations
 * Counter
 	* Keep counter and use zookeeper to manager counter services
 * DB entry (char longURL[2048], char shortURL[7], char createdAt[7], char expiresAt[7]) or add any field related to data analytics
