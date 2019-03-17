@@ -17,6 +17,33 @@
 * [Tech Dummies](https://www.youtube.com/watch?v=L7LtmfFYjc4)
 	
 > Architecture
+	* ![system](both online)
 	
 
 > APIs or Low Level Design
+* Web Sockets as they are bi-directional or duplex, anyone can initiate communication unlike http which is based on request and response model.
+
+* check online or last seen or offline
+	* Redis (user, server, last_heartbeat) e.g. (userA, N1, 17/03/2019:20:02:40), (userB, N2, 17/03/2019:19:02:40)
+	* Last heartbeat can be used to find last seen (curr_time - last_heartbeat)
+	* Similarly offline or online (( curr_time - last_heartbeat) < 5mins  = online)
+	
+* Send or receive message
+	* If both users are active and socket is open directly send or receive message
+	* If reciever is offline, store message in DB (equivalent to msg sent) 
+	* ![offline_user](offline_user)
+	* If receiver comes online, send acknowledgement to sender or move message to read table (equivalent to msg read)
+	* ![unread to read](read_unread)
+	
+* Send or receive media content
+	* First upload content to cdn/blob storage and then store url or send url to other user.
+	* ![cdn](cdn]
+	* 1[image-url](image-url)
+	
+* Group chat - same as one to one chat but instead of user table make group table which has list of all users in the group.
+
+* History 
+	* Take few day's data, compress and store to cdn/blob storage and store url in conversation table
+	* ![history-url](history_storage)
+
+		
