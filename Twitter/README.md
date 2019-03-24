@@ -15,13 +15,13 @@
 	* ![system 2](https://github.com/pakd/sysDes/blob/master/Twitter/res/sysdes.PNG)
 
 > Data Modeling
-	* Data
-		* 300 Million + users
-		* 600 tweets/sec
-		* 6,00,000 tweets/sec
-		* Read heavy system, 1:1000 write to read ratio
-		* Eventual consistency
-		* 140 chars/tweet : 280 is latest.
+* Data
+	* 300 Million + users
+	* 600 tweets/sec
+	* 6,00,000 tweets/sec
+	* Read heavy system, 1:1000 write to read ratio
+	* Eventual consistency
+	* 140 chars/tweet : 280 is latest.
 	 
 > APIs or Low Level Design
 
