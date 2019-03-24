@@ -19,7 +19,7 @@
 * [Tech Dummies](https://www.youtube.com/watch?v=lBAwJgoO3Ek)
 	
 > Architecture
-	* ![system 1](https://github.com/pakd/sysDes/blob/master/Twitter/res/arch.jpg)
+	* ![system 1](https://github.com/pakd/sysDes/blob/master/BookMyShow/res/sysDes.png)
 
 > APIs or Low Level Design
 
@@ -39,9 +39,9 @@
 * DataBase
 	* Uses hybrid mechanism
 	* Uses RDBMS - country, city, theatre, screen, seat data, transaction data etc
-	![RDBMS]()
+	![RDBMS](https://github.com/pakd/sysDes/blob/master/BookMyShow/res/rdbms.PNG)
 	* Uses NoSQL for storing big data such as movie info, cast info , trailers, comments, reviews etc.
-	![NoSQL]()
+	![NoSQL](https://github.com/pakd/sysDes/blob/master/BookMyShow/res/nosql.PNG)
 	
 * Recommendations
 	* Dump log data to hadoop, use machine learning.
