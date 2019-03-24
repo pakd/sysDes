@@ -42,8 +42,8 @@
 	* 1000 keywords/5 min  >>  10,000 keywords/1 month (vol of keywords and time taken)
 
 * Search - Early Bird - uses inverted full text index
-	 ![early-bird](https://github.com/pakd/sysDes/blob/master/Twitter/res/early-bird.PNG)
-	 ![ScatterAndGather](https://github.com/pakd/sysDes/blob/master/Twitter/res/scatter_and_gather.PNG)
+	* ![early-bird](https://github.com/pakd/sysDes/blob/master/Twitter/res/early-bird.PNG)
+	* ![ScatterAndGather](https://github.com/pakd/sysDes/blob/master/Twitter/res/scatter_and_gather.PNG)
 	
 * DB 
-	 ![DB_Redis](https://github.com/pakd/sysDes/blob/master/Twitter/res/db_reddis.PNG)
+	* ![DB_Redis](https://github.com/pakd/sysDes/blob/master/Twitter/res/db_reddis.PNG)
