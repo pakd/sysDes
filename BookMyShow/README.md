@@ -17,6 +17,7 @@
 
 > References
 * [Tech Dummies](https://www.youtube.com/watch?v=lBAwJgoO3Ek)
+* [Medium](https://medium.com/@narengowda/bookmyshow-system-design-e268fefb56f5)
 	
 > Architecture
 	* ![system 1](https://github.com/pakd/sysDes/blob/master/BookMyShow/res/sysDes.png)
