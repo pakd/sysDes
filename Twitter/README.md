@@ -9,6 +9,7 @@
 	
 > References
 * [Tech Dummies](https://www.youtube.com/watch?v=wYk0xPP_P_8)
+* [Medium](https://medium.com/@narengowda/system-design-for-twitter-e737284afc95)
 	
 > Architecture
 	* ![system 1](https://github.com/pakd/sysDes/blob/master/Twitter/res/arch.jpg)
