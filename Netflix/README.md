@@ -12,6 +12,6 @@
 * [Medium](https://medium.com/@narengowda/netflix-system-design-dbec30fede8d)
 	
 > Architecture
-	* ![system 1](https://github.com/pakd/sysDes/blob/master/CricInfo/res/arch.jpeg)
+	* ![system 1](https://github.com/pakd/sysDes/blob/master/Netflix/res/arch.jpg)
 
 > APIs or Low Level Design
