@@ -16,6 +16,6 @@
 * [Medium](https://medium.com/@narengowda/cricinfo-cricbuzz-system-design-c596e8506669)
 	
 > Architecture
-	* ![system 1](arch)
+	* ![system 1](https://github.com/pakd/sysDes/blob/master/CricInfo/res/arch.jpeg)
 
 > APIs or Low Level Design
