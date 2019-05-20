@@ -20,7 +20,7 @@
 * [Medium](https://medium.com/@narengowda/bookmyshow-system-design-e268fefb56f5)
 	
 > Architecture
-	* ![system 1](https://github.com/pakd/sysDes/blob/master/BookMyShow/res/sysDes.png)
+	* ![system 1](https://github.com/pakd/sysDes/blob/master/6.BookMyShow/res/sysDes.png)
 
 > APIs or Low Level Design
 
@@ -40,9 +40,9 @@
 * DataBase
 	* Uses hybrid mechanism
 	* Uses RDBMS - country, city, theatre, screen, seat data, transaction data etc
-	![RDBMS](https://github.com/pakd/sysDes/blob/master/BookMyShow/res/rdbms.PNG)
+	![RDBMS](https://github.com/pakd/sysDes/blob/master/6.BookMyShow/res/rdbms.PNG)
 	* Uses NoSQL for storing big data such as movie info, cast info , trailers, comments, reviews etc.
-	![NoSQL](https://github.com/pakd/sysDes/blob/master/BookMyShow/res/nosql.PNG)
+	![NoSQL](https://github.com/pakd/sysDes/blob/master/6.BookMyShow/res/nosql.PNG)
 	
 * Recommendations
 	* Dump log data to hadoop, use machine learning.

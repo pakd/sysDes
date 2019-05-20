@@ -17,7 +17,7 @@
 * [Tech Dummies](https://www.youtube.com/watch?v=L7LtmfFYjc4)
 	
 > Architecture
-	* ![system](https://github.com/pakd/sysDes/blob/master/ChatMessengerWSFB/res/both_online.PNG)
+	* ![system](https://github.com/pakd/sysDes/blob/master/2.ChatMessengerWAFB/res/both_online.PNG)
 	
 
 > APIs or Low Level Design
@@ -31,19 +31,19 @@
 * Send or receive message
 	* If both users are active and socket is open directly send or receive message
 	* If reciever is offline, store message in DB (equivalent to msg sent) 
-	  ![offline_user](https://github.com/pakd/sysDes/blob/master/ChatMessengerWSFB/res/offline_user.PNG)
+	  ![offline_user](https://github.com/pakd/sysDes/blob/master/2.ChatMessengerWAFB/res/offline_user.PNG)
 	* If receiver comes online, send acknowledgement to sender or move message to read table (equivalent to msg read)
-	  ![unread to read](https://github.com/pakd/sysDes/blob/master/ChatMessengerWSFB/res/read_unread.PNG)
+	  ![unread to read](https://github.com/pakd/sysDes/blob/master/2.ChatMessengerWAFB/res/read_unread.PNG)
 	
 * Send or receive media content
 	* First upload content to cdn/blob storage and then store url or send url to other user.
-	  ![cdn](https://github.com/pakd/sysDes/blob/master/ChatMessengerWSFB/res/cdn.PNG)
-	  ![image-url](https://github.com/pakd/sysDes/blob/master/ChatMessengerWSFB/res/imageurl.PNG)
+	  ![cdn](https://github.com/pakd/sysDes/blob/master/2.ChatMessengerWAFB/res/cdn.PNG)
+	  ![image-url](https://github.com/pakd/sysDes/blob/master/2.ChatMessengerWAFB/res/imageurl.PNG)
 	
 * Group chat - same as one to one chat but instead of user table make group table which has list of all users in the group.
 
 * History 
 	* Take few day's data, compress and store to cdn/blob storage and store url in conversation table
-	  ![history-url](https://github.com/pakd/sysDes/blob/master/ChatMessengerWSFB/res/history_storage.PNG)
+	  ![history-url](https://github.com/pakd/sysDes/blob/master/2.ChatMessengerWAFB/res/history_storage.PNG)
 
 		
